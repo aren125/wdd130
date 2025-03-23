@@ -4,36 +4,48 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Me</title>
-    <link rel="stylesheet" href="#">
+    <link rel="stylesheet" href="styles/style.css">
 </head>
+
 <body>
+
     <header>
+
+        <img id="logo" src="images/white_logo_transparent.png" alt="logo">
+
         <nav>
-            <div class="logo">
-                <img src="images/portfolio_logo.png" alt="logo">
-            </div>
             <a href="index.html">About Me</a> 
             <a href="projects.html">Projects</a> 
             <a href="experience.html">Experience</a>
-        </nav>
+        </nav>  
     </header>
+
     <main>
-        <section id="About Me">
-            <h1>About Me</h1>
-            <h2>Welcome! I’m Audrey Rentz</h2>
-            <p>Hi, I’m Audrey Rentz, a Computer Science student at BYU-I with a passion for combining logic and creativity! While working in office roles at an engineering company, I was introduced to software engineering and web development and became fascinated by the world of coding. This exposure piqued my curiosity and led me to pursue a degree in Computer Science.</p>
-            
-            <h2>Blending Creativity & Technology</h2>
-            <p>I love the challenge of problem-solving through code, and I’m currently learning Python, HTML, and CSS as I build my foundation in programming. I also have a strong creative side and love an artistic outlet. My recent outlets include watercolor, embroidery, and pottery. I love to try new things and consider myself to be a life-long learner.</p>
-            <p>I am currently in my first semester of Computer Science. As I continue my studies, I look forward to developing my coding skills, exploring web development, and discovering ways to blend design and technology. This website is my portfolio and learning space, where I’ll share projects, ideas, and creative work.</p>
-            
-            <h2>Let’s Connect!</h2>
-            <p>Feel free to explore my portfolio to see what I’m working on. I’m always excited to learn new things and collaborate with others who share a passion for creativity and technology!</p>
-            <div class="aboutme-img">
-                <img src="images/aboutme.JPEG" alt="Audrey Rentz" width="500" height="auto">
-                <img src="images/balconychair.JPEG" alt="Audrey on Balcony Chair" width="500" height="auto">
+
+        <section id="about-me">
+            <div class="welcome-container">
+                <img id='about-me-img' src="images/aboutme.JPEG" alt="Audrey Rentz" width="500" height="auto">
+                <div class="welcome">
+                    <h1>Welcome! I’m Audrey Rentz</h1>
+                    <p>Hi, I’m Audrey Rentz, a Computer Science student at BYU-I with a passion for combining logic and creativity! While working in office roles at an engineering company, I was introduced to software engineering and web development and became fascinated by the world of coding. This exposure piqued my curiosity and led me to pursue a degree in Computer Science.</p>
+                </div>
+            </div>
+
+            <div class="blending-container">
+                <div class="blending">
+                    <h2>Blending Creativity & Technology</h2>
+                    <p>I love the challenge of problem-solving through code, and I’m currently learning Python, HTML, and CSS as I build my foundation in programming. I also have a strong creative side and love an artistic outlet. My recent outlets include watercolor, embroidery, and pottery. I love to try new things and consider myself to be a life-long learner.</p>
+                    <p>I am currently in my first semester of Computer Science. As I continue my studies, I look forward to developing my coding skills, exploring web development, and discovering ways to blend design and technology. This website is my portfolio and learning space, where I’ll share projects, ideas, and creative work.</p>
+                </div>
+                <img id='blending-img' src="images/balconychair.JPEG" alt="Audrey on Balcony Chair" width="500" height="auto">
+            </div>
+        
+            <div class="connect">
+                <h2>Let’s Connect!</h2>
+                <p>Feel free to explore my portfolio to see what I’m working on. I’m always excited to learn new things and collaborate with others who share a passion for creativity and technology!</p>
             </div>
         </section>
+
         <section id="projects">
             <h2>What I've been working on...</h2>
             <div class="project-preview">
@@ -57,8 +69,12 @@
     </main>
     <footer>
         <p>Personal Profile&copy; 2025- Audrey Rentz</p>
-    <p><a href="site-plan.html">Site-Plan</a></p>
-    <p><a href="#">Contact Us</a></p>
+    
+        <div class="footer-links">
+            <p><a href="site-plan.html">Site-Plan</a></p>
+            <p><a href="#">Contact Us</a></p>
+        </div>
+
     <div class="social">
         <a href="https://facebook.com" target="_blank">
             <img src="images/facebook.png" alt="fb icon">
