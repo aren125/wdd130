@@ -228,3 +228,65 @@ footer a:hover {
 .social a img:hover {
     transform: scale(1.2);
 }
+
+#project-page h1 {
+    text-align: right;
+    font-size: 30px;
+
+}
+
+.project-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    margin: 20px 0;
+}
+
+.project-content .image {
+    max-width: 500px; 
+}
+
+.project-content .text {
+    max-width: 600px; 
+}
+
+#hello-world .project-content {
+    flex-direction: row-reverse; 
+}
+
+
+#junior-lead .project-content {
+    flex-direction: row-reverse;
+}
+
+.project-content img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.project-content h3 {
+    margin-top: 15px;
+}
+
+#acrylic-paintings .project-content {
+    display: flex;
+    justify-content: flex-end; 
+}
+
+.art-gallery {
+    display: flex;
+    gap: 20px; 
+    justify-content: flex-end; 
+}
+
+.art-gallery .image {
+    max-width: 250px;
+}
+
+.art-gallery img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}

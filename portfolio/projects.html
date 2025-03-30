@@ -4,58 +4,89 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projects</title>
-    <link rel="stylesheet" href="#">
+    <link rel="stylesheet" href="styles/style.css">
+
 </head>
 <body>
+
     <header>
+
+        <img id="logo" src="images/white_logo_transparent.png" alt="logo">
+
         <nav>
-            <div class="logo">
-                <img src="images/portfolio_logo.png" alt="logo">
-            </div>
             <a href="index.html">About Me</a> 
             <a href="projects.html">Projects</a> 
             <a href="experience.html">Experience</a>
-        </nav>
+        </nav>  
     </header>
-    <main>
-        <section id="projects">
-            <h1>Projects</h1>
-            <section id="hello-world">
-                <h2>Starting My Coding Journey</h2>
-                <p>Every programmer begins somewhere, and for me, that journey started with writing my first ‘Hello, World!” program. It’s so simple, but it represents my first step into the world of programming.</p>
-                <h3>“Hello, World!” - My First Code</h3>
-                <p><strong>Language:</strong> Python<br>
-                    <strong>Date:</strong> 01/10/25</p>
-                <img src="images/helloworld.png" alt="Hello World Code" width="500" height="auto">
-            </section>
-            <section id="junior-lead">
-                <h2>Sampson Junior Leadership Program</h2>
-                <p><strong>Organization:</strong> Clinton-Sampson Chamber of Commerce<br>
-                <strong>Year:</strong> 2022-2023<br>
-                <strong>Link:</strong> <a href="https://www.clintonsampsonchamber.org/junior-leadership-2022-2023/" target="_blank">Program Website</a></p>
-                <p>During my time as the Marketing & Events Coordinator at the Clinton-Sampson Chamber of Commerce, I had the opportunity to develop and implement the Sampson Junior Leadership Program. This initiative was designed to equip local high school students with leadership skills, community engagement opportunities, and career development resources.</p>
-                <h3>My Role & Contributions</h3>
-                <ul>
-                    <li>Designed and structured the curriculum and program schedule.</li>
-                    <li>Organized guest speakers, workshops, and networking events.</li>
-                    <li>Coordinated partnerships with local businesses and community leaders.</li>
-                    <li>Facilitated leadership activities to help students develop communication, teamwork, and problem-solving skills.</li>
-                </ul>
-                <img src="images/cohariemuseum.JPEG" alt="Coharie Museum" width="500" height="auto">
-            </section>
-            <section id="acrylic-paintings">
-                <h2>Acrylic Paintings: Flamingo and Cow</h2>
-                <p><strong>Medium:</strong> Acrylic Paint<br>
-                <strong>Year:</strong> 2022</p>
-                <p>Art has always been a meaningful creative outlet for me, allowing me to explore colors, textures, and self-expression. In 2022, I completed two acrylic paintings—one of a flamingo and one of a cow.</p>
 
-                <div class="art-gallery">
-                    <img src="images/cowpainting.JPEG" alt="Cow Painting" width="500" height="auto">
-                    <img src="images/flamingopainting.JPEG" alt="Flamingo Painting" width="500" height="auto">
+    <main>
+
+        <div id="project-page">
+            <h1>Projects</h1>
+            <hr>
+        </div>
+
+        <section id="hello-world">
+            <div class="project-content">
+                <div class="image">
+                    <img src="images/helloworld.png" alt="Hello World Code">
                 </div>
-            </section>
+                <div class="text">
+                    <h2>“Hello, World!” - My First Code</h2>
+                    <p><strong>Language:</strong> Python<br>
+                        <strong>Date:</strong> 01/10/25</p>
+                    <h3>Starting My Coding Journey</h3>
+                    <p>Every programmer begins somewhere, and for me, that journey started with writing my first ‘Hello, World!” program. It’s so simple, but it represents my first step into the world of programming.</p>
+                </div>
+            </div>
+            <hr>
         </section>
-    </main>
+        
+        <section id="junior-lead">
+            <div class="project-content">
+                <div class="text">
+                    <h2>Sampson Junior Leadership Program</h2>
+                    <p><strong>Organization:</strong> Clinton-Sampson Chamber of Commerce<br>
+                        <strong>Year:</strong> 2022-2023<br>
+                        <strong>Link:</strong> <a href="https://www.clintonsampsonchamber.org/junior-leadership-2022-2023/" target="_blank">Program Website</a></p>
+                    <p>During my time as the Marketing & Events Coordinator at the Clinton-Sampson Chamber of Commerce, I had the opportunity to develop and implement the Sampson Junior Leadership Program. This initiative was designed to equip local high school students with leadership skills, community engagement opportunities, and career development resources.</p>
+                    <h3>My Role & Contributions</h3>
+                    <ul>
+                        <li>Designed and structured the curriculum and program schedule.</li>
+                        <li>Organized guest speakers, workshops, and networking events.</li>
+                        <li>Coordinated partnerships with local businesses and community leaders.</li>
+                        <li>Facilitated leadership activities to help students develop communication, teamwork, and problem-solving skills.</li>
+                    </ul>
+                </div>
+                <div class="image">
+                    <img src="images/cohariemuseum.JPEG" alt="Coharie Museum">
+                </div>
+            </div>
+            <hr>
+        </section>        
+    
+        <section id="acrylic-paintings">
+            <div class="project-content">
+                <div class="text">
+                    <h2>Acrylic Paintings: Flamingo and Cow</h2>
+                    <p><strong>Medium:</strong> Acrylic Paint<br>
+                    <strong>Year:</strong> 2022</p>
+                    <p>Art has always been a meaningful creative outlet for me, allowing me to explore colors, textures, and self-expression. In 2022, I completed two acrylic paintings—one of a flamingo and one of a cow.</p>
+                </div>
+                <div class="art-gallery">
+                    <div class="image">
+                        <img src="images/cowpainting.JPEG" alt="Cow Painting">
+                    </div>
+                    <div class="image">
+                        <img src="images/flamingopainting.JPEG" alt="Flamingo Painting">
+                    </div>
+                </div>
+            </div>
+        </section>        
+
+    </main>    
+
     <footer>
         <p>Personal Profile&copy; 2025- Audrey Rentz</p>
         <p><a href="site-plan.html">Site-Plan</a></p>
